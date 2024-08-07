@@ -9,11 +9,14 @@
 <body>
     <header>
         <div class="container">
-            <h1>Willkommen auf UnityCraftSMP!</h1>
+            <h1>Willkommen bei UnityCraftSMP!</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#features">Features</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                    <li><a href="#ranking">Rangliste</a></li>
                     <li><a href="#contact">Kontakt</a></li>
                 </ul>
             </nav>
@@ -21,32 +24,63 @@
     </header>
     <section id="home" class="hero">
         <div class="container">
-            <h2>Dein Abenteuer beginnt hier!</h2>
-            <p>Erlebe spannende Abenteuer in unserem Minecraft-Server. Schließe dich unserer Community an und starte dein Abenteuer noch heute!</p>
+            <h2>Starte dein Abenteuer!</h2>
+            <p>Schließe dich unserer Community auf UnityCraftSMP an und erlebe spannende Survival-Abenteuer.</p>
             <a href="#contact" class="cta-button">Jetzt mitspielen</a>
+            <p>Server IP: <strong>play.unitycraftsmp.de</strong></p>
+            <p><a href="http://play.unitycraftsmp.de" class="cta-button">Server beitreten</a></p>
         </div>
     </section>
     <section id="features">
         <div class="container">
             <h2>Unsere Features</h2>
             <div class="feature">
-                <h3>Einzigartige Welten</h3>
-                <p>Entdecke maßgeschneiderte Welten und Abenteuer, die du so noch nie gesehen hast.</p>
+                <h3>Survival für Java & Bedrock</h3>
+                <p>Spiele Survival im klassischen Minecraft-Stil auf unserem Server, kompatibel mit Java und Bedrock.</p>
             </div>
             <div class="feature">
-                <h3>Aktive Community</h3>
-                <p>Triff Gleichgesinnte und teile deine Erlebnisse in unserer aktiven Community.</p>
+                <h3>Keine Creative-Modi</h3>
+                <p>Erlebe echtes Survival ohne kreative Freiheiten, nur pure Überlebenskunst.</p>
             </div>
             <div class="feature">
-                <h3>Regelmäßige Events</h3>
-                <p>Unsere regelmäßigen Events sorgen für ständige Abwechslung und neue Herausforderungen.</p>
+                <h3>Moderne Megabases</h3>
+                <p>Bewundere und baue atemberaubende Megabases im modernen Stil.</p>
             </div>
+        </div>
+    </section>
+    <section id="events">
+        <div class="container">
+            <h2>Aktuelle Events</h2>
+            <p>Bleibe auf dem Laufenden über unsere spannenden Events und besonderen Anlässe!</p>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="container">
+            <h2>Galerie</h2>
+            <p>Schau dir die besten Bilder unserer Community an und lade deine eigenen hoch!</p>
+            <form id="upload-form">
+                <label for="image-upload">Bild hochladen:</label>
+                <input type="file" id="image-upload" name="image" accept="image/*" required>
+                <button type="submit">Bild hochladen</button>
+            </form>
+            <div id="gallery-display">
+                <!-- Hier werden die Bilder angezeigt -->
+            </div>
+        </div>
+    </section>
+    <section id="ranking">
+        <div class="container">
+            <h2>Rangliste</h2>
+            <ul>
+                <li>1. Spieler1 - Punkte: 1500</li>
+                <li>2. Spieler2 - Punkte: 1400</li>
+                <li>3. Spieler3 - Punkte: 1300</li>
+            </ul>
         </div>
     </section>
     <section id="contact">
         <div class="container">
             <h2>Kontakt</h2>
-            <p>Hast du Fragen oder Anregungen? Kontaktiere uns über das folgende Formular:</p>
             <form id="contact-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -64,6 +98,7 @@
     <footer>
         <div class="container">
             <p>&copy; 2024 UnityCraftSMP. Alle Rechte vorbehalten.</p>
+            <p><a href="#rules">Regeln</a></p>
         </div>
     </footer>
     <script src="scripts.js"></script>
