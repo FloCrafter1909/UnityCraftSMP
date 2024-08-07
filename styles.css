@@ -119,22 +119,6 @@ header nav ul li a {
     border-radius: 8px;
 }
 
-/* Ranking Section */
-#ranking {
-    padding: 2rem 0;
-    background: #f9f9f9;
-}
-
-#ranking ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-#ranking ul li {
-    margin-bottom: 0.5rem;
-}
-
 /* Contact Section */
 #contact {
     padding: 2rem 0;
