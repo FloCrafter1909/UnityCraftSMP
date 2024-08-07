@@ -10,6 +10,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 /* Header Styles */
@@ -86,6 +87,51 @@ header nav ul li a {
 
 .feature h3 {
     font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Events Section */
+#events {
+    padding: 2rem 0;
+    background: #f9f9f9;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 2rem 0;
+    background: #fff;
+}
+
+#upload-form {
+    margin-bottom: 1.5rem;
+}
+
+#gallery-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#gallery-display img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Ranking Section */
+#ranking {
+    padding: 2rem 0;
+    background: #f9f9f9;
+}
+
+#ranking ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#ranking ul li {
     margin-bottom: 0.5rem;
 }
 
