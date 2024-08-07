@@ -3,16 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Minecraft-Server Website</title>
+    <title>UnityCraftSMP - Minecraft Server</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Willkommen auf meiner Minecraft-Server Website!</h1>
+        <div class="container">
+            <h1>Willkommen auf UnityCraftSMP!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <p>Hier findest du alle Infos zu meinem Minecraft-Server.</p>
-    </main>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Dein Abenteuer beginnt hier!</h2>
+            <p>Erlebe spannende Abenteuer in unserem Minecraft-Server. Schließe dich unserer Community an und starte dein Abenteuer noch heute!</p>
+            <a href="#contact" class="cta-button">Jetzt mitspielen</a>
+        </div>
+    </section>
+    <section id="features">
+        <div class="container">
+            <h2>Unsere Features</h2>
+            <div class="feature">
+                <h3>Einzigartige Welten</h3>
+                <p>Entdecke maßgeschneiderte Welten und Abenteuer, die du so noch nie gesehen hast.</p>
+            </div>
+            <div class="feature">
+                <h3>Aktive Community</h3>
+                <p>Triff Gleichgesinnte und teile deine Erlebnisse in unserer aktiven Community.</p>
+            </div>
+            <div class="feature">
+                <h3>Regelmäßige Events</h3>
+                <p>Unsere regelmäßigen Events sorgen für ständige Abwechslung und neue Herausforderungen.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Hast du Fragen oder Anregungen? Kontaktiere uns über das folgende Formular:</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Absenden</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 UnityCraftSMP. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
