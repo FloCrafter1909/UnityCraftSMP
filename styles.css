@@ -78,8 +78,8 @@ section {
     border-radius: 5px;
 }
 .responsive-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    max-width: 100%; /* Verhindert, dass das Bild breiter als der Bildschirm wird */
+    height: auto; /* Beibehaltung der Bildproportionen */
+    display: block; /* Entfernt möglichen Abstand um das Bild */
+    margin: 0 auto; /* Zentriert das Bild */
 }
